@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*Universal css*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*This will remove border when focus in input field or textarea*/
+*:focus{
+  outline: none;
+}
+/*main_div css*/
+.main_div{
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color:#a77a94;
+}
+/*center_div css and its child*/
+.center_div{
+  
+  border-radius: 20px;
+  margin-top: 45px;
+  width: 400px;
+  height: 86vh;
+  background-color:rgb(220, 215, 215);
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+h1{
+  text-align: center;
+  width: 410px;
+  border: solid;
+  margin-top:10px;
+  margin-bottom:60px;
+  background-color: rgb(126, 76, 171);
+  color: aliceblue;
+}
+ul{
+  margin-top: 40px;
+  list-style-type: none;
+  font-family:monospace;
+  font-size: 20px;
+  color: rgb(180, 45, 21);
+  font-weight: 500;
+}
+li{
+  border-bottom: 2px solid black;
+}
+#btn1{
+  width: 35px;
+  height: 35px;
+  font-size: large;
+  margin-left:5px;
+  border-radius: 40%;
+  border: none;
+  background-color: rgb(61, 69, 186);
+  color: aliceblue;
+}
+#btn1:hover{
+  background-color: rgb(18, 194, 18);
+}
+#btn1:active{
+  border-radius: 60%;
+}
+.inp{
+  border:none;
+  border-bottom:2px solid rgb(26, 22, 22);
+  border-radius: 5px;
+  text-align: center;
+  font-family:monospace;
+  font-size: 20px;
+  color: rgb(107, 22, 7);
+  font-weight: 500;
+}
+
+/*For ToDoList component*/
+#btn2{
+  width: 60px;
+  height: 30px;
+  font-size: large;
+  margin-left:150px;
+  margin-right: 10pxd;
+  margin-bottom: 2px;
+  border-radius: 10%;
+  border: none;
+  background-color: rgb(243, 11, 11);
+  color: aliceblue;
+}
+#btn2:hover{
+  background-color:rgb(128, 128, 128);
+}
+#btn2:active{
+  border-radius:0;
+}
+
+
+ 

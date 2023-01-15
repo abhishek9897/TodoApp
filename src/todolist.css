@@ -1,0 +1,23 @@
+.todo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.heading{
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.h{
+    display: flex;
+}
+.input-field{
+    width: 50%;
+    border-radius: 2px;
+    border: 1px solid rgb(243, 239, 239);
+    background-color: rgb(252, 252, 252);
+    height:30px;
+}
+.button{
+    height: 40px;
+    background-color: pink;
+}
